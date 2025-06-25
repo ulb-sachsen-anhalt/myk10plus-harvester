@@ -1,0 +1,43 @@
+{ 	"Database": "/VOLLSTÄNDIGER/PFAD/ZUR/Database.db",
+	"Debuglevel": "1",
+	"New_Folder": "/VOLLSTÄNDIGER/PFAD/ZUM/FOLDER/NEW/",
+	"Delete_Folder": "/VOLLSTÄNDIGER/PFAD/ZUM/FOLDER/DELETE/",
+	"Logs_Folder": "/VOLLSTÄNDIGER/PFAD/ZUM/FOLDER/LOGS/",
+	"InMyK10_Folder": "/VOLLSTÄNDIGER/PFAD/ZUM/FOLDER/INMYK10PLUS/",
+	"MyK10_Deleted_Folder": "/VOLLSTÄNDIGER/PFAD/ZUM/FOLDER/DELETED_MYK10PLUS/",
+	"Logfile": "Debug.log",
+	"Errorlog": "Error.log",
+	"SOLR_Log": "Solr.log",
+	"Allowlist_PPN": {},
+	"Denylist_PPN": {},
+	"Format_File": "/VOLLSTÄNDIGER/PFAD/ZUR/Formats.json",
+	"Relations_File": "/VOLLSTÄNDIGER/PFAD/ZUR/Relations.json",
+	"SOLR_Base": "https://findex.gbv.de/cloud/index/EIGENE_SOLR_URL",
+	"ID_Prefix": "EIGENE_ID",
+	"Marc_Folder": "/VOLLSTÄNDIGER/PFAD/ZUM/FOLDER/MARC/",
+	"Keep_Marc": "0",
+	"DataSources": [
+		{
+			"BaseURL": "https://OAI_SCHNITTSTELLE.DE/oai/discovery?verb=ListRecords&resumptionToken=",
+			"MetadataType": "METADATATYPE",
+			"Refresh_Days": "1",
+			"Collection_Name": ["MYK10PLUS-KOLLEKTION"],
+			"Publisher": "PUBLISHERNAME",
+			"Collection_Details": ["EIGENE_ILN_COLLECTIONS"],
+			"Full_Refresh": "6",
+			"Collection_Handles":[],
+			"Catalog_Check": "1"
+		},
+		{
+			"BaseURL": "https://ANDERE_ODER_GLEICHE_OAI_SCHNITTSTELLE.DE/oai/discovery?verb=ListRecords&resumptionToken=",
+			"MetadataType": "METADATATYPE",
+			"Refresh_Days": "1",
+			"Collection_Name": ["MYK10PLUS-KOLLEKTION"],
+			"Publisher": "PUBLISHERNAME",
+			"Collection_Details": ["EIGENE_ILN_COLLECTIONS"],
+			"Full_Refresh": "6",
+			"Collection_Handles":[],
+			"Catalog_Check": "1"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{ 	"Database": "/scripts/myk10plus-harvester/Databases/Database_Repo.db",
+	"Debuglevel": "3",
+	"New_Folder": "/scripts/myk10plus-harvester/Data/Repo/New/",
+	"Delete_Folder": "/scripts/myk10plus-harvester/Data/Repo/Delete/",
+	"Logs_Folder": "/scripts/myk10plus-harvester/Logs/Repo/",
+	"InMyK10_Folder": "/scripts/myk10plus-harvester/Data/Repo/In_MyK10/",
+	"MyK10_Deleted_Folder": "/scripts/myk10plus-harvester/Data/Repo/Deleted_MyK10/",
+	"Logfile": "Debug.log",
+	"Errorlog": "Error.log",
+	"SOLR_Log": "Solr.log",
+	"Allowlist_PPN": {},
+	"Denylist_PPN": {},
+	"Format_File": "/scripts/myk10plus-harvester/Lists/Formats.json",
+	"Relations_File": "/scripts/myk10plus-harvester/Lists/Relations.json",
+	"SOLR_Base": "https://findex.gbv.de/cloud/index/65/my_ULBSA_20231201/",
+	"ID_Prefix": "ULB0",
+	"Marc_Folder": "/scripts/myk10plus-harvester/Data/MarcXML/Repo/",
+	"Keep_Marc": "1",
+	"DataSources": [
+		{
+			"BaseURL": "https://opendata.uni-halle.de/oai/discovery?verb=ListRecords&resumptionToken=",
+			"MetadataType": "xoai_discovery",
+			"Refresh_Days": "1",
+			"Collection_Name": ["ISILDE-3_Repos"],
+			"Publisher": "Share_It",
+			"Collection_Details": ["GBV_ILN_65", "GBV_ILN_66", "GBV_ILN_123", "GBV_ILN_135", "GBV_ILN_171", "GBV_ILN_195", "GBV_ILN_224", "GBV_ILN_278", "GBV_ILN_807", "GBV_ILN_64", "GBV_ILN_289"],
+			"Full_Refresh": "6",
+			"Collection_Handles":[],
+			"Catalog_Check": "1"
+		},
+		{
+			"BaseURL": "https://sadar.uni-halle.de/oai/discovery?verb=ListRecords&resumptionToken=",
+			"MetadataType": "xoai_discovery",
+			"Refresh_Days": "1",
+			"Collection_Name": ["ISILDE-3_Repos"],
+			"Publisher": "SADAR",
+			"Collection_Details": ["GBV_ILN_65", "GBV_ILN_66", "GBV_ILN_123", "GBV_ILN_135", "GBV_ILN_171", "GBV_ILN_195", "GBV_ILN_224", "GBV_ILN_278", "GBV_ILN_807", "GBV_ILN_64", "GBV_ILN_289"],
+			"Full_Refresh": "6",
+			"Collection_Handles":[],
+			"Catalog_Check": "1"
+		}
+	]
+}
